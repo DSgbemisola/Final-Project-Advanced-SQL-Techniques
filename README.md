@@ -75,4 +75,52 @@ Let us organize or derive all the fields that give information about the date of
 
 ![image](https://github.com/user-attachments/assets/7da89f53-0ecc-436e-99f8-88db556f6831)
 
+# Task 4: Create a star schema using the fact and dimension tables
+
+Based on the previous two tasks, we have now arrived at 3 tables, we can name them as in the table below.
+
+![image](https://github.com/user-attachments/assets/4385d5fb-edc9-4671-af27-5cb3a3365fe3)
+
+When we arrange the above tables in Star Schema style, we get a table strucutre that looks likes the one in the image below.
+
+![image](https://github.com/user-attachments/assets/6cea0e1a-8cf9-4333-a439-3a080e67132b)
+
+The image shows the fact and dimension tables along with the relaionships between them.
+
+# Task 5: Create the schema on the data warehouse
+
+- Step 1: Start the postgresql server.
+- Step 2: Create the database on the data warehouse.
+- Step 3: Download the schema .sql file.
+
+The commands to create the schema are available in the file below.
+
+[https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0260EN-SkillsNetwork/labs/Working%20with%20Facts%20and%20Dimension%20Tables/star-schema.sql](https://drive.google.com/file/d/1pzGEQ5DV2EBiEeteqDSHK7G0nHMKUYBP/view?usp=sharing)
+
+- Step 4: Create the schema
+
+Run the command in the script above to create the schema in the under billingDW database.
+
+# Task 6: Practice exercises
+
+In this practice exercise, you will analyze the below csv file, which contains data about the daily sales at different stores of an international fashion retailer.
+
+![image](https://github.com/user-attachments/assets/9109a095-c899-4f89-951f-e48777629b84)
+
+# Exercise 1: Design the schema for the fact table FactSales.
+
+![image](https://github.com/user-attachments/assets/9e9d7210-2b7b-4d3a-91ea-c047e40fdecf)
+
+# Exercise 2: Design the schema for the dimension table DimStore.
+
+![image](https://github.com/user-attachments/assets/55870cdc-948a-4881-ac64-1e9e0d003b1d)
+
+# Exercise 3: Design the schema for the dimension table DimDate.
+
+![image](https://github.com/user-attachments/assets/cf129845-c03c-4868-ad37-ead7e152cc2f)
+
+
+
+
+
 
