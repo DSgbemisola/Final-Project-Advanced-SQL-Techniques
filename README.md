@@ -67,8 +67,12 @@ There are two dimensions to our fact(monthly bill).
   - Customer information
   - Date information
 
-![image](https://github.com/user-attachments/assets/4f748126-566d-477d-80b7-317b1ad13293)
-
 Let us organize all the fields that give information about the customer into a dimension table.
+
+![image](https://github.com/user-attachments/assets/7c51e5a8-ba9e-4bbe-907f-a8ffc55b5381)
+
+Let us organize or derive all the fields that give information about the date of the bill.
+
+![image](https://github.com/user-attachments/assets/7da89f53-0ecc-436e-99f8-88db556f6831)
 
 
